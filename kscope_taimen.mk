@@ -5,7 +5,7 @@
 #
 
 # Inherit some common Project Kscope stuff.
-$(call inherit-product, vendor/kscope/config/mobile.mk)
+$(call inherit-product, vendor/kscope/target/product/mobile.mk)
 
 # Inherit from the common Open Source product configuration
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
